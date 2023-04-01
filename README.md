@@ -1,12 +1,7 @@
-# Teste Técnico Rails 2
+# Teste Técnico - Ruby on Rails 
 
 Este projeto consiste nas respostas de um teste técnico realizado em Ruby on Rails.
 
-
-## Tecnologias:
-
-* Ruby 3.0.2
-* Rails 7.0.4.3
 
 ## Problemas / Soluções :heavy_check_mark:
 
@@ -34,6 +29,11 @@ Este projeto consiste nas respostas de um teste técnico realizado em Ruby on Ra
 **7** - Considerando a estrutura padrão de arquivos de um projeto feito com Ruby on Rails, em quais pastas devem se encontrar os models, os controllers e as views de um projeto? De que modo é possível saber qual controller é responsável por gerenciar uma determinada view?
 
 [Solução]( https://github.com/joaogdfaero/teste_tecnico_rails_2/issues/8 )
+
+## Tecnologias:
+
+* Ruby 3.0.2
+* Rails 7.0.4.3
 
 <br>Mentor / Leader: <strong>Marco Castro</strong>
 <br>Student / Author: <strong>João Gabriel Dal Forno (joao.dal@acad.ufsm.br)</strong>
