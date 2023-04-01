@@ -10,77 +10,30 @@ Este projeto consiste nas respostas de um teste técnico realizado em Ruby on Ra
 
 ## Problemas / Soluções :heavy_check_mark:
 
-**1** - Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda)
 
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/blob/main/app/business/palindrome.rb)
+**1** - Escreva um método que dado um inteiro x, um inteiro y e um inteiro w retorne todos os números divisíveis por w entre x e y.
 
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/2#issue-1393370551 )
 
-**2** - Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso.
+**2** - Em um sistema web, cada usuário pode se inscrever em diversos eventos, cada evento possui até 3 prêmios que são distribuídos entre os usuários presentes. O sistema precisa guardar a informação sobre quem participou de cada evento e quem ganhou os prêmios. Modele um banco de dados capaz de suportar essas regras.
 
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/blob/main/app/business/valida_CPF.rb)
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/4#issue-1393382030 )
 
+**3** - Considere um sistema onde cada Usuário possui os atributos nome (String), idade (Inteiro) e profissão (String). Faça uma query que retorne o nome de todos os usuários com idade maior ou igual à 18 anos e cuja profissão seja programador ou desenvolvedor.
 
-**3** - Implemente uma função para calcular o fatorial de números arbitrariamente grandes, sem utilizar recursividade.
-Regras
-● n < 0 deve retornar nil
-● n = 0 deve retornar 1
-● n > 0 deve retornar n!
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/7#issue-1393402664 )
 
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/blob/main/app/business/fatorial.rb)
+**5** - Quais são as vantagens/desvantagens de se usar a arquitetura MVC (Model, View e Controller)?
 
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/8#issue-1393403041 )
 
-**4** - A partir das tabelas do banco de dados abaixo, escreva uma query sql que através de join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando os por cpf.
+**6** - Usando Ruby on Rails, cite pelo menos uma forma de criar uma rota para um método chamado find_user dentro de um controller com o nome UsersController.
 
-Tabela: employees
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/9#issue-1393407085 )
 
-| id | first_name | last_name | cpf | team_id | job_title_id |
-|---|---|---|---|---|--|
-| 1 | Pedro | Alves | 665.415.876.80 | 2 | 3 |
-| 2 | Tiago | Nogueira | 032.336.130-75 | 1 | 1 |
-| 3 | João | Neves | 461.636.517.23 | 1 | 2 |
+**7** - Considerando a estrutura padrão de arquivos de um projeto feito com Ruby on Rails, em quais pastas devem se encontrar os models, os controllers e as views de um projeto? De que modo é possível saber qual controller é responsável por gerenciar uma determinada view?
 
-
-Tabela: teams
-
-| id | name |
-|---|---|
-| 1 | TI |
-| 2 | Suporte |
-| 3 | Financeiro |
-
-Tabela: job_titles
-
-| id | name |
-|---|---|
-| 1 | Desenvolvedor back-endimpr |
-| 2 | Desenvolvedor front-end |
-| 3 | Encantador de clientes |
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/4)
-
-**5** - Usando as tabelas do banco de dados do exercício anterior, escreva as classes das models Employee, Team e JobTitle, declare as associações das models e escreva a mesma query com a sintaxe do ActiveRecord.
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/5)
-
-
-**6** - Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/6)
-
-
-**7** - Qual a principal diferença entre estes dois métodos?
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/7)
-
-
-**8** - Qual o significado do self nas classes ruby?
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/8)
-
-
-**9** -  Quais as vantagens e desvantagens do ruby ser uma linguagem dinamicamente tipada?
-
-[Solução](https://github.com/joaogdfaero/teste_tecnico_rails_1/issues/9)
+[Solução]( https://github.com/osksergio/tt2_desenvolvendo-me/issues/10#issue-1393407417 )
 
 <br>Mentor / Leader: <strong>Marco Castro</strong>
 <br>Student / Author: <strong>João Gabriel Dal Forno (joao.dal@acad.ufsm.br)</strong>
