@@ -2,7 +2,7 @@
 
 Este projeto consiste nas respostas de um teste técnico realizado em Ruby on Rails.
 
-## Problemas / Soluções :heavy_check_mark:
+## Problemas / Soluções 
 
 **1** - Escreva um método que dado um inteiro x, um inteiro y e um inteiro w retorne todos os números divisíveis por w entre x e y.
 
