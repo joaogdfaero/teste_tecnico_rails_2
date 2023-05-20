@@ -33,7 +33,7 @@ Este projeto consiste nas respostas de um teste técnico realizado em Ruby on Ra
 * Ruby 3.0.2
 * Rails 7.0.4.3
 
-
+##
 <br>Mentor / Leader: <strong>Marco Castro</strong>
 <br>Student / Author: <strong>João Gabriel Dal Forno (joao.dal@acad.ufsm.br)</strong>
 
